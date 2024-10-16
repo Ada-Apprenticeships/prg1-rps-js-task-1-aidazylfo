@@ -1,5 +1,10 @@
 function rockPaperScissors(player1, player2) {
+// "rock" , "paper", "scissors"
 
+if(player1 === player2)
+{
+  return "draw"
+}
   
    
 }
@@ -17,3 +22,5 @@ function rockPaperScissors(player1, player2) {
 module.exports = {
   rockPaperScissors,
 }
+
+// testing 
